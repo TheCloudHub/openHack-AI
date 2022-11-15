@@ -12,7 +12,7 @@ from azure.search.documents.indexes.models import (
 )
 
 endpoint = "https://searchwebdocs.search.windows.net"
-key = "VetajnX171BkMmynXujnVRFAibwJnT7zOhtHPcXdGoAzSeAQ4aKF"
+key = "your api key"
 
 # Create a service client
 client = SearchIndexClient(endpoint, AzureKeyCredential(key))
